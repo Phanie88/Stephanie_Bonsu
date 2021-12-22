@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quotes_app/home.dart';
+import 'home.dart';
 
-/*void main() {
-  runApp(const ScaffoldExample());
-}*/
+// void main() => runApp(ScaffoldExample());
 
-void main() => runApp(new MaterialApp(
-    home: Wisdom(),
+void main() => runApp( new MaterialApp(
+   home: BillSplitter(),
 ));
